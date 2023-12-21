@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/841fe3b1a2.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container2 fonts">
+        <nav class="navbar">
+            <ul>
+                <img src="images/vektor.png" alt="vektor" class="sizep">
+            </ul>
+            <ul>
+                <li> <a href="home.html">Home</a> </li>
+                <li> <a href="About.html">About</a> </li>
+                <li> <a href="OurServices.html">Our Services</a> </li>
+                <li> <a href="ContactUs.html" class="btn">Contact Us</a> </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container fonts">
+        <u style="color: #F8FAAD;">
+            <h1 style="color: #f0f0f0; font-size: 80px;">Contact Us</h1>
+        </u>
+        <br>
+        <div class="gabung" style="font-size: 20px;">
+            <div>
+                <form id="register-form" action="" style="background-color: #F8FAAD; display:flex; justify-content: center; width: 498px;">
+                <!-- NAME -->
+                <div>
+                    <label for="name">Name</label>
+                    <div class="names">
+                        <div class="sizes">
+                            <input type="text" id="name" placeholder="First name">
+                        </div>
+                        <p id="error-name" class="error-message"></p>
+                        <div class="sizes">
+                            <input type="text" id="name2" placeholder="Last name">
+                        </div>
+                        <p id="error-name2" class="error-message"></p>
+                    </div>
+                    
+                    <!-- <p id="error-name" class="error-message"></p> -->
+                </div>
+
+                <!-- EMAIL -->
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter your email...">
+                    <p id="error-email" class="error-message"></p>
+                </div>
+
+                <!-- PASSWORD -->
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="text" id="number" placeholder="Input your phone number">
+                    <p id="error-number" class="error-message"></p>
+                </div>
+
+                <!-- CONFIRM PASSOWRD -->
+                <div>
+                    <label for="Message">Message</label>
+                    <textarea name="message" id="msg" cols="30" rows="10" style="border-radius: 8px; padding: 5px" placeholder="Input your message"></textarea>
+                    <p id="error-msg" class="error-message"></p>
+                </div>
+
+                <!-- Register Button -->
+                <button id="register-btn" type="submit" class="btn2">Send</button>
+                </form>
+            </div>
+
+            <div>
+                <img src="images/cus.png" alt="">
+            </div>
+        </div>
+
+        <br>
+        
+        <div style="border: solid #F8FAAD 2px; width: 95%; margin: auto; margin-top: 50px;"></div>
+        <div class="footer">
+            <div class="footer2">
+                <img src="images/vektor.png" alt="" class="ukuran2">
+                <b><p style="font-size: 50px; color: #f0f0f0; padding: 5px;" class="fonts">Tretify.id</p></b>
+            </div>
+            <div class="footer3">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook clr"></i>
+                    <i class="fa-brands fa-instagram clr"></i>
+                    <i class="fa-brands fa-square-whatsapp clr"></i>
+                    <i class="fa-regular fa-envelope clr"></i>
+                </div>
+                <p style="font-size: 20px; color: #f0f0f0;" class="fonts">Jl. Rawa Belong No. XIX, Jakarta Barat, 178980</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="ContactUs.js"></script>
+</body>
+
+</html>
